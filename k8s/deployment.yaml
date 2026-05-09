@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: harithakk/fastapi-hello:v1
+        image: harithakk/fastapi-hello:v2
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
